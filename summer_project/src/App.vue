@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <HelloWorld msg="MQTT Configuration app"/>
+    <Defaultpage msg="MQTT Configuration app"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Defaultpage from './components/page.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Defaultpage
   }
 }
 </script>
